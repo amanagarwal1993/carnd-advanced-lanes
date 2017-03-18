@@ -50,6 +50,7 @@ Here is a test of the warped images
 
 ##### Finding base lanes using a histogram
 As taught in the class, I plotted a histogram to see where where the maximum lane pixels in the images. In most test images the results I used, the results were clear enough:
+
 ![Histogram](outputs/histogram.jpg)
 
 ##### Finding the lane line equations
@@ -63,10 +64,15 @@ Here's the summary of all the steps taken for extracting lane equations:
 7. Save the polynomial equations in global variables so that they are available to the next frame of video. This is to allow for smooth transitions and error-handling.
 
 Here's what the line equations look like when plotted:
+
 ![Lane lines](outputs/lines.jpg)
+
 For the next frame:
+
 8. Directly use the previous line equations to draw the regions where we will look for lane pixels.
+
 ![Search Area](outputs/search_area.jpg)
+
 9. Fit a polynomial again and save globally.
 
 ##### Marking lanes on road image
