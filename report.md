@@ -77,6 +77,7 @@ For the next frame:
 
 ##### Marking lanes on road image
 We can now use `cv2.fillPoly` to paint the lane interiors. After that we use reverse perspective transform to get the original image having lanes marked on it.
+
 ![Processed Image](outputs/lanes.jpg)
 
 ##### Finding radius of curvature
