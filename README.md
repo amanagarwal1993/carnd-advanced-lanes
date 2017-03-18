@@ -1,7 +1,9 @@
 # Project: Advanced Lane Finding
 This is the third project in Udacity's [Self Driving Car Nanodegree Program](http://udacity.com/drive). In this project, I used advanced computer vision techniques to find road lanes, get radius of curvature of the road and also find our vehicle's relative position from center.
 
-**Please watch the final project video [here](https://youtu.be/1BnR208cy7Q)!**
+**Please watch the final project video here:**
+
+[![Youtube](outputs/youtube.jpg)](https://youtu.be/1BnR208cy7Q)!
 
 ### Project Structure
 Overview of the different files submitted in the project
