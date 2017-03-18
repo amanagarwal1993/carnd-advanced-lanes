@@ -3,7 +3,7 @@ This is the third project in Udacity's [Self Driving Car Nanodegree Program](htt
 
 **Please watch the final project video here:**
 
-[![Youtube](outputs/youtube.png)](https://youtu.be/1BnR208cy7Q)!
+<a href="https://youtu.be/1BnR208cy7Q"><img src="outputs/youtube.png" alt="Drawing" style="width: 200px;"/></a>
 
 ### Project Structure
 Overview of the different files submitted in the project
