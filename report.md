@@ -8,7 +8,7 @@ Overview of the different files submitted in the project
 3. **`report.md`**: Project report
 
 
-### Discussion
+### Solution Design and Approach
 ##### Camera Calibration
 I used Udacity's set of chessboard images to calibrate the camera and prepare the undistort matrix. Here's the final output of an undistorted chessboard image:
 ![Chessboard](outputs/calibration.jpg) 
@@ -93,3 +93,6 @@ I used `cv2.putText()` for writing the Radius and Vehicle Position values over o
 
 ### Project Video Link
 Please watch it [here](https://youtu.be/1BnR208cy7Q)!
+
+### Discussion
+The current pipeline works really well for the main project video, but completely breaks on the challenge videos. The main reason is that I haven't had time to introduce special failsafes for scenarios where the program doesn't detect any lanes, and also because I only keep track of lane equations from one previous frame (and not *n* frames). So it's not a fully robust pipeline but it meets all the criteria for the task at hand.
