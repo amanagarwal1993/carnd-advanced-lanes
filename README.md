@@ -3,6 +3,8 @@ This is the third project in Udacity's [Self Driving Car Nanodegree Program](htt
 
 **Please watch the final project video here:**
 
+(Note: the program has been updated after the creation of this video. No algorithmic or calculation changes, just a little more clarity in describing the radius of curvature and vehicle position.)
+
 [![Youtube](outputs/youtube2.png)](https://youtu.be/1BnR208cy7Q)
 
 ### Project Structure
